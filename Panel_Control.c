@@ -1,3 +1,13 @@
+/***
+ * @autor: Mariana da Silva Lima Santos
+ * Painel de controle interativo para um RU (Restaurante Universitário). 
+ * 
+ * O projeto utiliza o microcontrolador Raspberry Pi Pico com o sistema operacional FreeRTOS,
+ * um display OLED SSD1306, LEDs RGB e um buzzer.
+ * 
+ * O painel permite o controle de entrada e saída de usuários,
+ * além de fornecer feedback visual e sonoro sobre o estado do RU.
+ */
 #include <stdio.h>
 #include "pico/stdlib.h"
 #include "FreeRTOS.h"
